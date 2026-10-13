@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Eunice Kim, an Interactive Design student focused on UI/UX research and design.">
+    <meta name="theme-color" content="#fffecb">
+    <title>Eunice Kim — Interactive Designer</title>
+    <link rel="icon" href="public/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="./">Eunice Kim</a>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">☰</button>
+        <nav class="primary-nav" id="primary-navigation" aria-label="Primary">
+          <a class="nav-link" href="./" aria-current="page">Home</a>
+          <a class="nav-link" href="./#projects">Projects</a>
+          <a class="nav-link" href="./about/">About</a>
+          <a class="contact-link" href="mailto:ejk27social@gmail.com">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero-wrap" aria-labelledby="hero-title">
+        <div class="hero">
+          <span class="eyebrow">Interactive Designer</span>
+          <h1 id="hero-title">Eunice Kim</h1>
+          <p class="hero-copy">UI/UX designer and Interactive Design student at James Madison University with a passion for creativity in the media field.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="#projects">See my projects</a>
+            <a class="button button-outline-light" href="./about/">About me</a>
+          </div>
+        </div>
+        <p class="intro-copy">I&apos;m interested in UI/UX research and design, and I love learning and growing in that space. When I&apos;m not designing, you&apos;ll find me making videos with my friends — and aspiring to be a cat mom. Scroll down to see my projects!</p>
+      </section>
+
+      <section class="container section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Selected Projects</h2>
+          <span class="subtle">4 projects</span>
+        </div>
+
+        <ul class="project-list">
+          <li class="project-row">
+            <a class="project-card-link" href="./projects/melting-pot/">
+              <div class="project-info">
+                <span class="project-category">UI/UX</span>
+                <h3 class="project-title">Melting Pot</h3>
+                <p class="project-blurb">A mobile app concept that helps people discover and share dishes from cultures around the world, turning food into a way to connect across communities.</p>
+                <span class="project-cta">View case study ↗</span>
+              </div>
+              <div class="project-visual">
+                <img src="public/images/melting-pot.png" alt="Melting Pot cultural food discovery app concept" loading="lazy">
+              </div>
+            </a>
+          </li>
+
+          <li class="project-row">
+            <a class="project-card-link" href="./projects/killington-infographic/">
+              <div class="project-info">
+                <span class="project-category">Visual Communication</span>
+                <h3 class="project-title">Killington Infographic</h3>
+                <p class="project-blurb">An infographic poster that distills the scale and story of Killington ski resort into a single, easy-to-read visual for first-time visitors.</p>
+                <span class="project-cta">View case study ↗</span>
+              </div>
+              <div class="project-visual contain">
+                <img src="public/images/killington-infographic.png" alt="Killington ski resort infographic poster" loading="lazy">
+                <img src="public/images/killington-infographic-trails.png" alt="Infographic detail showing Killington trail information" loading="lazy">
+              </div>
+            </a>
+          </li>
+
+          <li class="project-row">
+            <a class="project-card-link" href="./projects/guide-to-iceland/">
+              <div class="project-info">
+                <span class="project-category">Website Design</span>
+                <h3 class="project-title">Guide to Iceland</h3>
+                <p class="project-blurb">A responsive travel-guide website that helps travelers plan a trip to Iceland, from must-see landscapes to practical tips.</p>
+                <span class="project-cta">View case study ↗</span>
+              </div>
+              <div class="project-visual">
+                <img src="public/images/guide-to-iceland.png" alt="Guide to Iceland travel website design" loading="lazy">
+              </div>
+            </a>
+          </li>
+
+          <li class="project-row">
+            <div class="project-info">
+              <span class="project-category">User Research</span>
+              <span class="coming-soon">Coming soon</span>
+              <h3 class="project-title">AI Research</h3>
+              <p class="project-blurb">An ongoing research project exploring how people build trust with AI tools and where those experiences break down.</p>
+            </div>
+            <div class="project-visual">
+              <img src="public/images/ai-research.png" alt="AI trust research project artwork" loading="lazy">
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-copy">
+          <h2 class="footer-title">Let&apos;s connect!</h2>
+          <p class="footer-description">I&apos;m always happy to chat about design, research, or a good place to eat. Reach out any time.</p>
+          <a class="footer-email" href="mailto:ejk27social@gmail.com">ejk27social@gmail.com</a>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="./">Home</a>
+          <a href="./#projects">Projects</a>
+          <a href="./about/">About</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">© <span data-current-year>2026</span> Eunice Kim · Interactive Design · James Madison University</div>
+    </footer>
+  </body>
+</html>
