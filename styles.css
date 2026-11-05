@@ -603,6 +603,14 @@ h3,
   object-fit: contain;
 }
 
+.case-cover.full-image {
+  aspect-ratio: auto;
+}
+
+.case-cover.full-image img {
+  height: auto;
+}
+
 .case-heading h1 {
   margin: 0.9rem 0 0;
   font-size: clamp(2.5rem, 5vw, 3.5rem);
