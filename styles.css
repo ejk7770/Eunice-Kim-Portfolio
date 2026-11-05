@@ -733,6 +733,14 @@ h3,
   object-fit: contain;
 }
 
+.case-section-image.full-image {
+  aspect-ratio: auto;
+}
+
+.case-section-image.full-image img {
+  height: auto;
+}
+
 .coming-soon-panel {
   margin-top: 4rem;
   border: 1px dashed var(--border);
