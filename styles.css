@@ -611,6 +611,12 @@ h3,
   height: auto;
 }
 
+.case-cover.portrait {
+  width: min(100%, 25rem);
+  aspect-ratio: 2 / 3;
+  justify-self: start;
+}
+
 .case-heading h1 {
   margin: 0.9rem 0 0;
   font-size: clamp(2.5rem, 5vw, 3.5rem);
@@ -747,6 +753,17 @@ h3,
 
 .case-section-image.full-image img {
   height: auto;
+}
+
+.case-section-image.portrait {
+  width: min(100%, 25rem);
+  aspect-ratio: 2 / 3;
+  justify-self: end;
+}
+
+.case-section-image.landscape {
+  aspect-ratio: 3 / 2;
+  justify-self: start;
 }
 
 .coming-soon-panel {
