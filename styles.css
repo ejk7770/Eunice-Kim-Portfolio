@@ -57,7 +57,7 @@ img {
   z-index: 10;
   top: 0;
   border-bottom: 1px solid rgb(230 223 191 / 75%);
-  background: rgb(255 254 203 / 90%);
+  background: #fef7e7;
   backdrop-filter: blur(14px);
 }
 
