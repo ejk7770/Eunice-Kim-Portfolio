@@ -708,7 +708,6 @@ h3,
 
 .research-list {
   margin: 1.8rem 0 0;
-  padding-left: 2rem;
   color: rgb(66 62 59 / 82%);
   font-size: clamp(1rem, 1.15vw, 1.25rem);
   line-height: 1.6;
