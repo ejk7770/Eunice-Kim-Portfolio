@@ -291,12 +291,12 @@ h3,
   padding: 2.5rem 0;
 }
 
-.project-row:nth-child(even) .project-info {
-  order: 2;
+.project-info {
+  order: 1;
 }
 
-.project-row:nth-child(even) .project-visual {
-  order: 1;
+.project-visual {
+  order: 2;
 }
 
 .project-card-link {
