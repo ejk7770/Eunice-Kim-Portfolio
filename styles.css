@@ -140,11 +140,13 @@ h3,
 
 .hero {
   position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   overflow: hidden;
-  border-radius: 2rem;
-  padding: clamp(4rem, 9vw, 7.5rem) 1.5rem;
+  border-radius: 0;
+  padding: clamp(4rem, 9vw, 7.5rem) max(1.5rem, calc((100vw - 72rem) / 2));
   background: linear-gradient(130deg, var(--red), var(--orange) 74%);
-  text-align: center;
+  text-align: left;
   isolation: isolate;
 }
 
@@ -173,7 +175,7 @@ h3,
 }
 
 .eyebrow {
-  color: rgb(255 254 203 / 85%);
+  color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.26em;
@@ -182,13 +184,13 @@ h3,
 
 .hero h1 {
   width: fit-content;
-  margin: 1rem auto 0;
+  margin: 1rem 0 0;
   border: 1px solid rgb(255 254 203 / 30%);
   border-radius: 1rem;
   padding: 0.25rem 1.5rem 0.45rem;
   background: var(--violet);
   box-shadow: 0 0.75rem 2rem rgb(84 72 200 / 35%);
-  color: var(--cream);
+  color: #fff;
   font-size: clamp(3rem, 8vw, 5.5rem);
   font-weight: 600;
   letter-spacing: -0.04em;
@@ -197,8 +199,8 @@ h3,
 
 .hero-copy {
   max-width: 38rem;
-  margin: 1.5rem auto 0;
-  color: rgb(255 254 203 / 93%);
+  margin: 1.5rem 0 0;
+  color: #fff;
   font-size: clamp(1rem, 2.1vw, 1.2rem);
   line-height: 1.7;
 }
@@ -206,7 +208,7 @@ h3,
 .button-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.75rem;
   margin-top: 2rem;
 }
@@ -238,17 +240,26 @@ h3,
   color: var(--cream);
 }
 
+.hero .button-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.hero .button-outline-light:hover {
+  background: rgb(255 255 255 / 15%);
+}
+
 .button-outline-light:hover {
   background: rgb(255 254 203 / 15%);
 }
 
 .intro-copy {
   max-width: 43rem;
-  margin: 2.5rem auto 0;
+  margin: 2.5rem 0 0;
   color: rgb(66 62 59 / 83%);
   font-size: 1.1rem;
   line-height: 1.8;
-  text-align: center;
+  text-align: left;
 }
 
 .section {
@@ -909,8 +920,7 @@ h3,
   }
 
   .hero {
-    border-radius: 1.5rem;
-    padding-inline: 1rem;
+    padding-inline: 1.25rem;
   }
 
   .project-row {
